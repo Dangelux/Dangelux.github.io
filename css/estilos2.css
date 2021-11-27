@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;600;700&display=swap');
+/*:root{
+    --padding-container: 100px 0;
+    --color-title: #001A49;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: url(../imagenes/registro1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+.hero{
+    width: 100%;
+    min-height: 600px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: #fff;
+}
+
+
+.nav{
+    --padding-container:0;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+}
+
+.nav__title{
+    font-weight: 300;
+}
+
+.nav__link{
+    margin-left: auto;
+    padding: 0; 
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em;
+}
+
+.nav__items{
+    list-style: none;
+}
+
+.nav__links{
+    color: #fff;
+    text-decoration: none;
+} */
+
+/*FORMULARIOS*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: url(../imagenes/registros.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario{
+    background: #fff;
+    margin-top: 250px;
+    padding: 3px;
+}
+
+h1{
+    text-align: center;
+    color: royalblue;
+    font-size: 40px;
+    padding: 15px;
+}
+
+h3{
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    padding: 15px;
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color: #fff;
+    font-size: 20px;
+    background: royalblue;
+    padding: 15px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: cadetblue;
+}
+
+p{
+    text-align: center;
+    padding: auto;
+    margin-top: 7px;
+}
+
+.link{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 600;
+}
+
+.link:hover{
+    color: cadetblue;
+}
+
+@media(min-width:768px){
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Asap', sans-serif;
+	color: rgb(0,0,0);
+	font-weight: 400;
+	font-size: 1rem;
+}
+
+a{
+	display: inline-block;
+}
+
+section{
+	position: relative;
+}
+
+/*HEADER*/
+header{
+    background: #A2DBFA;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+    }
+    
+    .menuH{
+        width: 900px;
+        margin: 0 auto;
+    }
+    
+    .ilogo{
+        width: 120px;
+        float: left;
+        padding: 8px;
+    }
+    
+    nav{
+        float: right;
+    }
+    
+    nav ul li{
+        list-style: none;
+        margin-left: 55px;
+        padding: 12px 0;
+        float: left;
+        position: relative;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: #444;
+        font-weight: bold;
+        font-size: 1rem;
+        padding-top: 20px;
+    }
+    nav ul li a::before{
+        display: block;
+        content: '';
+        width: 0%;
+        background: #444;
+        height: 5px;
+        top: 0;
+        position: absolute;
+        transition: width .2s;
+    }
+    
+    nav ul li a:hover::before{
+        width: 100%;
+    }
+/*EDITOR DE PARTITURAS */
+
+.barraUsuario{
+    margin: 0;
+}
+.content h2{
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.content p{
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+button{
+    background: royalblue;
+    color: #EAEBEF;
+    padding: 10px 20px;
+    border: none;
+    display: block;
+    cursor: pointer;
+}
+
+/*DRAG AND DROP*/
+.caja{
+    border: solid 5px royalblue;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    padding-bottom: 0;
+    flex-wrap: wrap;
+}
+
+.item{
+    padding: 2em;
+    margin: 1em;
+}
+
+#caja2{ /*CABEZOTE DE LA OBRA*/
+    border: none;
+    background: url(../imagenes/x1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    display: block;
+    /*padding-top: 30px; */
+}
+
+#caja3{ /*INICIO DE LA PARTITURA*/
+    border: none;
+    background-image: url(../imagenes/x0.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 100%;
+    display: block;
+    /*padding: 30px;*/
+}
+
+#caja4{
+    border: none;
+    background: url(../imagenes/x2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    /*width: 100%;*/
+    display: block;
+    /*padding-top: 30px;*/
+}
+
+#caja5{
+    border: none;
+    background: url(../imagenes/x3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 680px;
+    /*width: 100%;*/
+    display: block;
+    /*padding-top: 30px;*/
+}
+
+.producto{
+    width: 30px;
+    height: 30px;
+    margin: 30px; 
+    margin-left: auto; 
+    padding-bottom: 10px;
+} 
+
+
+
